@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f1ea;
+        color: #333;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 2rem;
+      }
+
+      .header {
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+
+      .header img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 3px solid #c6bcb6;
+      }
+
+      .header h1 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        color: #5e4b3c;
+      }
+
+      .header p {
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 1rem auto;
+        color: #555;
+      }
+
+      h2 {
+        color: #7d6b5c;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      .hobbies {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 1.5rem;
+      }
+
+      .hobby-card {
+        background: #fffaf5;
+        border: 1px solid #e2dcd6;
+        border-radius: 10px;
+        padding: 1rem 1.5rem;
+        min-width: 150px;
+        text-align: center;
+        color: #4a3c2f;
+        transition: all 0.3s ease;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+      }
+
+      .hobby-card:hover {
+        transform: translateY(-4px);
+        background-color: #f8f3ed;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+      }
+
+      .links {
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .links a {
+        display: inline-block;
+        margin: 0.5rem;
+        padding: 0.7rem 1.5rem;
+        background-color: #d8c3af;
+        color: #3e3229;
+        text-decoration: none;
+        border-radius: 25px;
+        font-weight: bold;
+        transition: background 0.3s ease;
+      }
+
+      .links a:hover {
+        background-color: #c4ad97;
+      }
+
+      @media (max-width: 600px) {
+        .hobby-card {
+          min-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="https://via.placeholder.com/140" alt="Profile Photo" />
+        <h1>Ojaswi Endait</h1>
+        <p>
+          Hello! I’m [Your Name], a front-end development enthusiast with a
+          strong curiosity for learning new technologies and constantly pushing
+          my skills to the next level. I’m especially passionate about creating
+          intuitive, responsive user interfaces that balance aesthetics with
+          functionality.
+        </p>
+        <p>
+          My main area of expertise is in React, and I've built a full-stack
+          website from the ground up using React on the frontend, along with
+          backend technologies that bring real functionality to life. That
+          project taught me not just how to build clean, modular code — but also
+          how to think critically about user experience, performance, and
+          scalability.
+        </p>
+        <p>
+          I love picking up new tools and techniques — whether it’s mastering a
+          new CSS layout trick, experimenting with animation libraries, or
+          learning about backend APIs. Outside of coding, I enjoy designing
+          websites, dancing, reading books, crocheting, and immersing myself in
+          music. Creativity is at the core of everything I do — and I bring that
+          energy into every project I work on.
+        </p>
+      </div>
+
+      <h2>Hobbies & Interests</h2>
+      <div class="hobbies">
+        <div class="hobby-card">Coding</div>
+        <div class="hobby-card">Designing Websites</div>
+        <div class="hobby-card">Dancing</div>
+        <div class="hobby-card">Crocheting</div>
+      </div>
+
+      <div class="links">
+        <h2>Connect with Me</h2>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
